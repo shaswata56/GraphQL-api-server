@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const initDB = () => {
 
-    const uri = "mongodb+srv://demo:demo@cluster0-nevpd.mongodb.net/angular-heroes?retryWrites=true";
+    const uri = "mongodb+srv://user:pass@cluster0-nevpd.mongodb.net/angular-heroes?retryWrites=true";
 
     mongoose.connect(uri, { useNewUrlParser: true }, (err) => {
         if(err)
