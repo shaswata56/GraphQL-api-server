@@ -4,7 +4,7 @@ const graphqlHTTP = require('koa-graphql');
 const schema = require('./graphql/schema');
 const app = new Koa();
 const initDB = require('./database');
-let port = 4444;
+let port = 443;
 
 app.listen(port, () => {
     console.log('listening on '+ port)
